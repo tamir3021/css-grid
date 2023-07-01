@@ -29,6 +29,13 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas: 
+      "SIDEBAR content"
+      "footer footer"
+      ;
+    }
+    .footer {
+      grid-area: SIDEBAR;
     }
   </style>
 </body>

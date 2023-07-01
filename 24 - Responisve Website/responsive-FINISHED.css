@@ -24,7 +24,8 @@ img {
   grid-gap: 20px;
   grid-template-areas:
     "hero hero cta1"
-    "hero hero cta2"
+    "hero hero cta2";
+  gap: 20px;
 }
 
 .hero {
